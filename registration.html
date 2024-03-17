@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aabe1e7da7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="box_content">
+        <header class="header center">
+            <div class="header_left">
+                <a href="index.html" class="link_logo"><img src="img/logo.png" alt="logo"></a>
+                <a href="#" class="header_search"><span class="fa-solid fa-magnifying-glass"></span></a>
+            </div>
+            <div class="header_right">
+
+                <div class="header_burger_menu">
+
+                    <label for="burger"><img class="header_icons" src="img/burger.svg" alt="burger-menu"></label>
+                    <input id="burger" type="checkbox" checked="checked">
+                    <nav class="header_nav">
+
+                        <h3 class="header_burger_headding">MENU</h3>
+
+                        <ul class="header_burger_nav"> MEN
+                            <li><a class="header_burger_link" href="#">T-Shirts</a></li>
+                            <li><a class="header_burger_link" href="#">Accesories</a></li>
+                            <li><a class="header_burger_link" href="#">Bags</a></li>
+                            <li><a class="header_burger_link" href="#">Denim</a></li>
+                        </ul>
+
+                        <ul class="header_burger_nav"> WOMAN
+                            <li><a class="header_burger_link" href="#">Accessories</a></li>
+                            <li><a class="header_burger_link" href="#">Jackets & Coats</a></li>
+                            <li><a class="header_burger_link" href="#">Polos</a></li>
+                            <li><a class="header_burger_link" href="#">T-Shirt</a></li>
+                            <li><a class="header_burger_link" href="#">Shirt</a></li>
+                        </ul>
+
+                        <ul class="header_burger_nav"> KIDS
+                            <li><a class="header_burger_link" href="#">Accessories</a></li>
+                            <li><a class="header_burger_link" href="#">Jackets & Coats</a></li>
+                            <li><a class="header_burger_link" href="#">Polos</a></li>
+                            <li><a class="header_burger_link" href="#">T-Shirts</a></li>
+                            <li><a class="header_burger_link" href="#">Shirts</a></li>
+                            <li><a class="header_burger_link" href="#">Bags</a></li>
+                        </ul>
+
+
+                    </nav>
+                </div>
+                <a href="registration.html" class="header_link_site"><img class="header_icons"
+                        src="img/registration.svg" alt="registration"></a>
+                <a href="cart.html" class="header_link_site"><img class="header_icons" src="img/cart.svg"
+                        alt="cart"><img class="header_icons_cart_circle" src="img/red_circle.svg" alt="circle"></a>
+
+            </div>
+        </header>
+
+        <div class="top_head center">
+            <h2 class="top_head_title">REGISTRATION</h2>
+        </div>
+
+        <div class="main center">
+            <form action="#" class="main_input">
+                <div class="main_input_reg">
+                    <h5 class="main_input_title">Your Name</h5>
+                    <input class="main_input_reg" required type="text" placeholder="First Name"
+                        style="border: 1px solid #A4A4A4">
+                    <input class=" main_input_reg" required type="text" placeholder="Last Name"
+                        style="border: 1px solid #A4A4A4">
+                </div>
+
+                <div class="main_input_radio">
+                    <p class="main_input_radio_text">
+                        <input type="radio" value="woman" name="gender"> <span
+                            class="main_input_radio_text_span">Woman</span>
+                    </p>
+                    <p class="main_input_radio_text">
+                        <input type="radio" value="men" name="gender"> <span
+                            class="main_input_radio_text_span">Men</span>
+                    </p>
+                </div>
+
+
+                <div class="main_input_reg">
+                    <h5 class="main_input_title">Login details</h5>
+                    <input class="main_input_reg" required type="email" placeholder="Email"
+                        style="border: 1px solid #A4A4A4">
+                    <input required type="password" class="main_input_reg" placeholder="Password"
+                        style="border: 1px solid #A4A4A4">
+                    <p class="main_input_text">
+                        Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                        letters
+                    </p>
+                </div>
+
+                <input type="submit" class="basket_cart_submit_box basket_cart_submit_total main_reg_input"
+                    value="JOIN NOW   →">
+            </form>
+            <div class="main_content ">
+                <p class="main_content_txt main_content_txt_padding">LOYALTY HAS ITS PERKS</p>
+                <p class="main_content_txt main_content_txt_padding">Get in on the loyalty program where you can earn
+                    points and unlock serious
+                    perks. Starting with these as soon as you
+                    join:</p>
+                <p class="main_content_txt">🗸 15% off welcome offer
+                </p>
+                <p class="main_content_txt">🗸 Free shipping, returns and exchanges on all orders
+                </p>
+                <p class="main_content_txt"> $10 off a purchase on your birthday
+                </p>
+                <p class="main_content_txt">🗸 Early access to products</p>
+                <p class="main_content_txt">🗸 Exclusive offers & rewards</p>
+
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer_input center">
+
+                <div class="footer_left">
+                    <img src="img/face.jpg" alt="face" class="footer_left_face_img">
+                    <p class="footer_face_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <b
+                            class="footer_text_italic">a pulvinar purus condimentum“</b>
+                    </p>
+                </div>
+                <div class="footer_rigth">
+                    <h2 class="footer_title"> SUBSCRIBE <br> <b class="footer_text_rigth">
+                            FOR OUR NEWLETTER AND PROMOTION</b>
+                    </h2>
+
+                    <form action="#" class="footer_contact">
+                        <input class="footer_form" type="email" required placeholder="Enter you email">
+                        <button class="footer_btn" type="submit">Subcribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="footer_info container">
+                    <p class="footer_bottom_text">© 2021 Brand All Rights Reserved.</p>
+                    <div class="footer_icons">
+                        <a href="#" class="footer_icons_link"><img src="img/facebook.svg" alt="facebook"
+                                class="footer_icons_img"></a>
+                        <a href="#" class="footer_icons_link"><img src="img/instagram.svg" alt="instagram"
+                                class="footer_icons_img"></a>
+                        <a href="#" class="footer_icons_link"><img src="img/pinterest.svg" alt="pinterest"
+                                class="footer_icons_img"></a>
+                        <a href="#" class="footer_icons_link"><img src="img/twitter.svg" alt="twitter"
+                                class="footer_icons_img"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
